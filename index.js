@@ -20,6 +20,6 @@ function deepestChild() {
     parentDiv = divs;
     divs = divs.children[0];
   }
-  return .children[0];
+  return parentDiv.children[0];
 }
 // 2 variables tracking the the parent and the child, only returning the parent
